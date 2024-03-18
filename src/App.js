@@ -837,11 +837,11 @@ export default function App() {
                             href="https://holliday-spotify-app-1268cb18a08c.herokuapp.com/"
                             target="_blank"
                             rel="noreferrer"
-                            aria-label="Bijou Movies and TV Database"
+                            aria-label="Spotify Profile App"
                           >
                             <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                             <span>
-                              Bijou{' '}
+                              Spotify Profile App{' '}
                               <span className="inline-block">
                                 <svg
                                   xmlns="http://www.w3.org/2000/svg"
