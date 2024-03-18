@@ -827,7 +827,7 @@ export default function App() {
                       />
                     </div>
                   </li>
-                  {/* <li className="mb-12">
+                  <li className="mb-12">
                     <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                       <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-200/60 dark:lg:group-hover:dark:bg-zinc-700/50"></div>
                       <div className="z-10 sm:order-2 sm:col-span-4">
@@ -861,10 +861,11 @@ export default function App() {
                           </a>
                         </h3>
                         <p className="mt-2 text-sm leading-normal">
-                          Application that uses Spotify's API, React, and
+                          An application that uses Spotify's API, React, and
                           Node.js to show your profile, top artists, top tracks,
-                          and some other fun stuff. You'll need a Spotify login
-                          to check it out.
+                          and some other fun stuff. With the current Spotify API
+                          rules, you'll need to email me so I can add your
+                          login/email to the list for entry (unfortunately).
                         </p>
                       </div>
                       <img
@@ -878,7 +879,7 @@ export default function App() {
                         src="spotify-profile.png"
                       />
                     </div>
-                  </li> */}
+                  </li>
                   {/* <li className="mb-12">
                     <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                       <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-200/60 dark:lg:group-hover:dark:bg-zinc-700/50"></div>
