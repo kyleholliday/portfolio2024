@@ -940,6 +940,18 @@ export default function App() {
                 </ul>
               </div>
             </section>
+            <section>
+              <p>
+                Made with React, TypeScript, and SCSS/Tailwind by{' '}
+                <a
+                  className="dark:text-green-500 text-blue-500"
+                  href="https://github.com/kyleholliday/portfolio2024"
+                  target="_blank"
+                >
+                  Kyle Holliday
+                </a>
+              </p>
+            </section>
           </main>
         </div>
       </div>
