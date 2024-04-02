@@ -947,6 +947,7 @@ export default function App() {
                   className="dark:text-green-500 text-blue-500"
                   href="https://github.com/kyleholliday/portfolio2024"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Kyle Holliday
                 </a>
