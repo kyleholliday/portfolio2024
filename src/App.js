@@ -165,7 +165,7 @@ export default function App() {
               <li className="mr-5 text-xs">
                 <a
                   className="block dark:hover:text-gray-200 hover:text-slate-400"
-                  href="https://www.linkedin.com/in/kyle-holliday-60671452/"
+                  href="https://www.linkedin.com/in/kyle-holliday/"
                   target="_blank"
                   rel="noreferrer"
                 >
