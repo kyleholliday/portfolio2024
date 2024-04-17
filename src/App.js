@@ -196,15 +196,16 @@ export default function App() {
               <div>
                 <p className="mb-4">
                   Howdy. I'm Kyle. I've got a passion for front-end development
-                  and have been immersed in the world of software engineering
-                  for the better part of a decade. My expertise lies in crafting
-                  seamless user experiences using React, Angular, and
-                  JavaScript. Beyond coding, design occupies a significant part
-                  of my professional portfolio.
+                  and have been involved in the world of software engineering
+                  for the better part of a decade. My knowledge mainly focuses
+                  on crafting seamless user experiences using React, Angular,
+                  and JavaScript. While coding makes up the majority of my
+                  portfolio, I also enjoying designing through using tools like
+                  Figma and Sketch.
                 </p>
                 <p className="mb-4">
                   Throughout my career, I've had the privilege of contributing
-                  to a variety of endeavors, from startups to Fortune 500
+                  to a variety of endeavors, from small startups to Fortune 500
                   companies and financial institutions. Looking ahead, my focus
                   remains on leveraging technology to build impactful solutions.
                   Excited about the future, I bring a creative blend of
@@ -229,7 +230,7 @@ export default function App() {
                     <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                       <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-100 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-700 sm:-inset-x-6 sm:rounded-2xl"></div>
                       <header
-                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-gray-500 sm:col-span-2"
+                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide sm:col-span-2 dark:text-gray-400 text-zinc-600"
                         aria-label="2018 to Present"
                       >
                         2023 — Present
@@ -299,7 +300,7 @@ export default function App() {
                           </li>
                           <li className="mr-1.5 mt-2">
                             <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
-                              BPM
+                              Storybook
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
@@ -320,7 +321,7 @@ export default function App() {
                     <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                       <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-100 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-700 sm:-inset-x-6 sm:rounded-2xl"></div>
                       <header
-                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-gray-500 sm:col-span-2"
+                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide dark:text-gray-400 text-zinc-600 sm:col-span-2"
                         aria-label="July to December 2017"
                       >
                         2020 — 2023
@@ -407,6 +408,11 @@ export default function App() {
                               Craft CMS
                             </div>
                           </li>
+                          <li className="mr-1.5 mt-2">
+                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                              Sanity CMS
+                            </div>
+                          </li>
                         </ul>
                       </div>
                     </div>
@@ -415,7 +421,7 @@ export default function App() {
                     <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                       <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-100 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-700 sm:-inset-x-6 sm:rounded-2xl"></div>
                       <header
-                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-gray-500 sm:col-span-2"
+                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide dark:text-gray-400 text-zinc-600 sm:col-span-2"
                         aria-label="July to December 2017"
                       >
                         2016 — 2020
@@ -518,7 +524,7 @@ export default function App() {
                     <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4">
                       <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-100 opacity-0 transition dark:bg-zinc-700 sm:-inset-x-6 sm:rounded-2xl"></div>
                       <header
-                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-gray-500 sm:col-span-2"
+                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide dark:text-gray-400 text-zinc-600 sm:col-span-2"
                         aria-label="2018 to Present"
                       >
                         Programming Languages
@@ -567,7 +573,7 @@ export default function App() {
                     <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4">
                       <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-100 opacity-0 transition dark:bg-zinc-700 sm:-inset-x-6 sm:rounded-2xl"></div>
                       <header
-                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-gray-500 sm:col-span-2"
+                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide dark:text-gray-400 text-zinc-600 sm:col-span-2"
                         aria-label="2018 to Present"
                       >
                         Libraries & Frameworks
@@ -626,7 +632,7 @@ export default function App() {
                     <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4">
                       <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-100 opacity-0 transition dark:bg-zinc-700 sm:-inset-x-6 sm:rounded-2xl"></div>
                       <header
-                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-gray-500 sm:col-span-2"
+                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide dark:text-gray-400 text-zinc-600 sm:col-span-2"
                         aria-label="2018 to Present"
                       >
                         Tools & Platforms
@@ -685,6 +691,11 @@ export default function App() {
                           <li className="mr-1.5 mt-2">
                             <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               Craft CMS
+                            </div>
+                          </li>
+                          <li className="mr-1.5 mt-2">
+                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                              Sanity CMS
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
@@ -769,7 +780,7 @@ export default function App() {
             >
               <div className="sticky top-0 z-20 -mx-6 mb-8 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0">
                 <h2 className="text-sm font-bold uppercase tracking-widest text-slate-900 dark:text-gray-200">
-                  Projects
+                  Latest Personal Projects
                 </h2>
               </div>
               <div>
@@ -808,11 +819,11 @@ export default function App() {
                           </a>
                         </h3>
                         <p className="mt-2 text-sm leading-normal">
-                          Movie and TV database app that utilizes the TMDB and
-                          JustWatch APIs. Discover a world of entertainment with
-                          over a million movies and TV shows. From upcoming and
-                          newly released blockbusters to trending TV, we've got
-                          your popcorn ready.
+                          Movie and TV database app that utilizes React,
+                          TypeScript, and a handful of APIs. Discover a world of
+                          entertainment with over a million movies and TV shows.
+                          From upcoming and newly released blockbusters to
+                          trending TV.
                         </p>
                       </div>
                       <img
@@ -942,7 +953,7 @@ export default function App() {
             </section>
             <section>
               <p>
-                Made with React, TypeScript, and SCSS/Tailwind by{' '}
+                This site was made with React, TypeScript, and SCSS/Tailwind by{' '}
                 <a
                   className="dark:text-green-500 text-blue-500"
                   href="https://github.com/kyleholliday/portfolio2024"
@@ -950,6 +961,15 @@ export default function App() {
                   rel="noreferrer"
                 >
                   Kyle Holliday
+                </a>{' '}
+                and is hosted via{' '}
+                <a
+                  className="dark:text-green-500 text-blue-500"
+                  href="https://netlify.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Netlify
                 </a>
               </p>
             </section>
