@@ -466,7 +466,7 @@ export default function App() {
                           using tools such as Sketch and Invision Freehand.
                           Worked on and with multiple teams in tandem (UI/UX,
                           Development, Marketing, and Testing) to produce the
-                          best product in the least amount of time
+                          best product in the least amount of time.
                         </p>
                         <ul
                           className="mt-2 flex flex-wrap"
