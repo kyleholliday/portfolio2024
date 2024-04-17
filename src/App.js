@@ -200,7 +200,7 @@ export default function App() {
                   for the better part of a decade. My knowledge mainly focuses
                   on crafting seamless user experiences using React, Angular,
                   and JavaScript. While coding makes up the majority of my
-                  portfolio, I also enjoying designing with tools like Figma and
+                  portfolio, I also enjoy designing with tools like Figma and
                   Sketch.
                 </p>
                 <p className="mb-4">
