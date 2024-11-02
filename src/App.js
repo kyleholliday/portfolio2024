@@ -233,7 +233,98 @@ export default function App() {
                         className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide sm:col-span-2 dark:text-gray-400 text-zinc-600"
                         aria-label="2018 to Present"
                       >
-                        2023 — Present
+                        2024 — Present
+                      </header>
+                      <div className="z-10 sm:col-span-6">
+                        <h3 className="font-medium leading-snug text-slate-900 dark:text-gray-200">
+                          <div>
+                            <a
+                              className="inline-flex items-baseline font-medium leading-tight text-slate-900 dark:text-gray-200 dark:hover:text-green-500 dark:focus-visible:text-green-500 hover:text-blue-500 focus-visible:text-blue-500 group/link text-base"
+                              href="https://www.firstcitizens.com/"
+                              target="_blank"
+                              rel="noreferrer"
+                              aria-label="Senior Front End Developer"
+                            >
+                              <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                              <span>
+                                Senior Front End Developer · <> </>
+                                <span className="inline-block">
+                                  Premier Inc.
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                    className="ml-1 inline-block h-4 w-4 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none"
+                                    aria-hidden="true"
+                                  >
+                                    <path
+                                      fillRule="evenodd"
+                                      d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
+                                      clipRule="evenodd"
+                                    ></path>
+                                  </svg>
+                                </span>
+                              </span>
+                            </a>
+                          </div>
+                        </h3>
+                        <p className="mt-2 text-sm leading-normal"></p>
+                        <ul
+                          className="mt-2 flex flex-wrap"
+                          aria-label="Technologies used"
+                        >
+                          <li className="mr-1.5 mt-2">
+                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                              React
+                            </div>
+                          </li>
+                          <li className="mr-1.5 mt-2">
+                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                              CSS/SCSS
+                            </div>
+                          </li>
+                          <li className="mr-1.5 mt-2">
+                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                              JavaScript
+                            </div>
+                          </li>
+                          <li className="mr-1.5 mt-2">
+                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                              TypeScript
+                            </div>
+                          </li>
+                          <li className="mr-1.5 mt-2">
+                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                              Git
+                            </div>
+                          </li>
+                          <li className="mr-1.5 mt-2">
+                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                              Figma
+                            </div>
+                          </li>
+                          <li className="mr-1.5 mt-2">
+                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                              Sanity CMS
+                            </div>
+                          </li>
+                          <li className="mr-1.5 mt-2">
+                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                              Craft CMS
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="mb-12">
+                    <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                      <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-100 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-700 sm:-inset-x-6 sm:rounded-2xl"></div>
+                      <header
+                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide sm:col-span-2 dark:text-gray-400 text-zinc-600"
+                        aria-label="2018 to Present"
+                      >
+                        2023 — 2024
                       </header>
                       <div className="z-10 sm:col-span-6">
                         <h3 className="font-medium leading-snug text-slate-900 dark:text-gray-200">
@@ -269,10 +360,10 @@ export default function App() {
                           </div>
                         </h3>
                         <p className="mt-2 text-sm leading-normal">
-                          Designing and developing internal applications in
-                          JavaScript and Angular. Currently migrating
-                          large-scale internal applications from AngularJS to
-                          Angular 2+, as well as updating design systems.
+                          Designed and developed internal applications in
+                          JavaScript and Angular. Migrated large-scale internal
+                          applications from AngularJS to Angular 2+, as well as
+                          updated design systems.
                         </p>
                         <ul
                           className="mt-2 flex flex-wrap"
@@ -838,7 +929,7 @@ export default function App() {
                       />
                     </div>
                   </li>
-                  <li className="mb-12">
+                  {/* <li className="mb-12">
                     <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                       <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-200/60 dark:lg:group-hover:dark:bg-zinc-700/50"></div>
                       <div className="z-10 sm:order-2 sm:col-span-4">
@@ -894,7 +985,7 @@ export default function App() {
                         src="spotify-profile.png"
                       />
                     </div>
-                  </li>
+                  </li> */}
                   {/* <li className="mb-12">
                     <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                       <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-200/60 dark:lg:group-hover:dark:bg-zinc-700/50"></div>
