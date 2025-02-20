@@ -454,12 +454,12 @@ export default function App() {
                           Developed high-quality production applications for a
                           diverse array of development projects, teams, and
                           clients including Bank of America, Capital One, and
-                          PGA Tour. Designed and implemented responsive,
-                          accessible, and mobile-friendly interfaces using
-                          modern day technology libraries. Utilized tools like
-                          Figma, Sketch, and Invision in the design process.
-                          Employed agile methodologies and project management
-                          techniques to deliver projects on time.
+                          PGA Tour. Designed and implemented award-winning
+                          responsive, accessible, and mobile-friendly interfaces
+                          using modern day technology libraries. Utilized tools
+                          like Figma, Sketch, and Invision in the design
+                          process. Employed agile methodologies and project
+                          management techniques to deliver projects on time.
                         </p>
                         <ul
                           className="mt-2 flex flex-wrap"
