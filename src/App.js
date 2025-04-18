@@ -240,7 +240,7 @@ export default function App() {
                           <div>
                             <a
                               className="inline-flex items-baseline font-medium leading-tight text-slate-900 dark:text-gray-200 dark:hover:text-green-500 dark:focus-visible:text-green-500 hover:text-blue-500 focus-visible:text-blue-500 group/link text-base"
-                              href="https://www.firstcitizens.com/"
+                              href="https://www.premierinc.com"
                               target="_blank"
                               rel="noreferrer"
                               aria-label="Senior Front End Developer"
