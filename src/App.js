@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function App() {
   // State to track the current theme
@@ -32,7 +32,7 @@ export default function App() {
           <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
             <div>
               <h1 className="text-4xl font-bold tracking-tight text-slate-900 dark:text-stone-50 sm:text-5xl">
-                <a href="/">Kyle Holliday</a>
+                Kyle Holliday
               </h1>
               <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-900 dark:text-stone-50 sm:text-xl">
                 Software Engineer
@@ -195,7 +195,7 @@ export default function App() {
               </div>
               <div>
                 <p className="mb-4">
-                  Howdy. I'm Kyle. I've got a passion for front-end development
+                  Howdy. I'm Kyle. I've got a passion for front end development
                   and have been involved in the world of software engineering
                   for the better part of a decade. My knowledge mainly focuses
                   on crafting seamless user experiences using React, Angular,
@@ -268,7 +268,16 @@ export default function App() {
                             </a>
                           </div>
                         </h3>
-                        <p className="mt-2 text-sm leading-normal"></p>
+                        <p className="mt-2 text-sm leading-normal">
+                          Architect and lead design system development for a
+                          multi-billion dollar healthcare technology platform
+                          serving two-thirds of U.S. healthcare providers. I
+                          prioritize accessibility and user experience while
+                          proactively addressing technical challenges. Through
+                          mentorship and scalable design systems, I help teams
+                          deliver consistent, inclusive digital experiences
+                          across the organization.
+                        </p>
                         <ul
                           className="mt-2 flex flex-wrap"
                           aria-label="Technologies used"
