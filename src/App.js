@@ -87,7 +87,7 @@ export default function App() {
                       href="#about"
                     >
                       <span className="nav-indicator mr-4 h-px w-8 dark:bg-gray-400 bg-blue-500 transition-all group-hover:w-16 dark:group-hover:bg-green-600 group-hover:bg-blue-500 group-focus-visible:w-16 dark:group-focus-visible:bg-green-600 group-focus-visible:bg-blue-500 motion-reduce:transition-none"></span>
-                      <span className="nav-text text-xs font-bold uppercase tracking-widest dark:group-hover:text-green-600 group-hover:text-blue-500 dark:group-focus-visible:text-green-600 group-focus-visible:text-blue-500">
+                      <span className="nav-text text-sm font-bold uppercase tracking-widest dark:group-hover:text-green-600 group-hover:text-blue-500 dark:group-focus-visible:text-green-600 group-focus-visible:text-blue-500">
                         About
                       </span>
                     </a>
@@ -98,7 +98,7 @@ export default function App() {
                       href="#experience"
                     >
                       <span className="nav-indicator mr-4 h-px w-8 dark:bg-gray-400 bg-blue-500 transition-all group-hover:w-16 dark:group-hover:bg-green-600 group-hover:bg-blue-500 group-focus-visible:w-16 dark:group-focus-visible:bg-green-600 group-focus-visible:bg-blue-500 motion-reduce:transition-none"></span>
-                      <span className="nav-text text-xs font-bold uppercase tracking-widest dark:group-hover:text-green-600 group-hover:text-blue-500 dark:group-focus-visible:text-green-600 group-focus-visible:text-blue-500">
+                      <span className="nav-text text-sm font-bold uppercase tracking-widest dark:group-hover:text-green-600 group-hover:text-blue-500 dark:group-focus-visible:text-green-600 group-focus-visible:text-blue-500">
                         Experience
                       </span>
                     </a>
@@ -109,7 +109,7 @@ export default function App() {
                       href="#projects"
                     >
                       <span className="nav-indicator mr-4 h-px w-8 dark:bg-gray-400 bg-blue-500 transition-all group-hover:w-16 dark:group-hover:bg-green-600 group-hover:bg-blue-500 group-focus-visible:w-16 dark:group-focus-visible:bg-green-600 group-focus-visible:bg-blue-500 motion-reduce:transition-none"></span>
-                      <span className="nav-text text-xs font-bold uppercase tracking-widest dark:group-hover:text-green-600 group-hover:text-blue-500 dark:group-focus-visible:text-green-600 group-focus-visible:text-blue-500">
+                      <span className="nav-text text-sm font-bold uppercase tracking-widest dark:group-hover:text-green-600 group-hover:text-blue-500 dark:group-focus-visible:text-green-600 group-focus-visible:text-blue-500">
                         Projects
                       </span>
                     </a>
@@ -121,7 +121,7 @@ export default function App() {
               className="ml-1 mt-8 flex items-center"
               aria-label="Social media"
             >
-              <li className="mr-5 text-xs">
+              <li className="mr-5 text-sm">
                 <a
                   className="block dark:hover:text-gray-200 hover:text-slate-400"
                   href="https://github.com/kyleholliday"
@@ -140,7 +140,7 @@ export default function App() {
                   </svg>
                 </a>
               </li>
-              <li className="mr-5 text-xs">
+              <li className="mr-5 text-sm">
                 <a
                   className="block dark:hover:text-gray-200 hover:text-slate-400"
                   href="https://dribbble.com/KyleHolliday"
@@ -162,7 +162,7 @@ export default function App() {
                   </svg>
                 </a>
               </li>
-              <li className="mr-5 text-xs">
+              <li className="mr-5 text-sm">
                 <a
                   className="block dark:hover:text-gray-200 hover:text-slate-400"
                   href="https://www.linkedin.com/in/kyle-holliday/"
@@ -230,7 +230,7 @@ export default function App() {
                     <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                       <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-100 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-700 sm:-inset-x-6 sm:rounded-2xl"></div>
                       <header
-                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide sm:col-span-2 dark:text-gray-200 text-zinc-600"
+                        className="z-10 mb-2 mt-1 text-sm font-semibold uppercase tracking-wide sm:col-span-2 dark:text-gray-200 text-zinc-600"
                         aria-label="2018 to Present"
                       >
                         2024 — Present
@@ -283,42 +283,42 @@ export default function App() {
                           aria-label="Technologies used"
                         >
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               React
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               CSS/SCSS
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               JavaScript
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               TypeScript
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               Git
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               Figma
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               Sanity CMS
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               Craft CMS
                             </div>
                           </li>
@@ -330,7 +330,7 @@ export default function App() {
                     <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                       <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-100 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-700 sm:-inset-x-6 sm:rounded-2xl"></div>
                       <header
-                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide sm:col-span-2 dark:text-gray-200 text-zinc-600"
+                        className="z-10 mb-2 mt-1 text-sm font-semibold uppercase tracking-wide sm:col-span-2 dark:text-gray-200 text-zinc-600"
                         aria-label="2018 to Present"
                       >
                         2023 — 2024
@@ -379,37 +379,37 @@ export default function App() {
                           aria-label="Technologies used"
                         >
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               Angular
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               CSS/SCSS
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               JavaScript
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               TypeScript
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               Storybook
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               TIBCO
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               Azure
                             </div>
                           </li>
@@ -421,7 +421,7 @@ export default function App() {
                     <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                       <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-100 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-700 sm:-inset-x-6 sm:rounded-2xl"></div>
                       <header
-                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide dark:text-gray-200 text-zinc-600 sm:col-span-2"
+                        className="z-10 mb-2 mt-1 text-sm font-semibold uppercase tracking-wide dark:text-gray-200 text-zinc-600 sm:col-span-2"
                         aria-label="July to December 2017"
                       >
                         2020 — 2023
@@ -479,37 +479,37 @@ export default function App() {
                           aria-label="Technologies used"
                         >
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               JavaScript
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               React
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               Angular
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               TypeScript
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               CSS/SCSS
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               Craft CMS
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               Sanity CMS
                             </div>
                           </li>
@@ -521,7 +521,7 @@ export default function App() {
                     <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                       <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-100 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-700 sm:-inset-x-6 sm:rounded-2xl"></div>
                       <header
-                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide dark:text-gray-200 text-zinc-600 sm:col-span-2"
+                        className="z-10 mb-2 mt-1 text-sm font-semibold uppercase tracking-wide dark:text-gray-200 text-zinc-600 sm:col-span-2"
                         aria-label="July to December 2017"
                       >
                         2016 — 2020
@@ -577,27 +577,27 @@ export default function App() {
                           aria-label="Technologies used"
                         >
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               JavaScript
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               React
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               Angular
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               TypeScript
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               CSS/SCSS
                             </div>
                           </li>
@@ -624,7 +624,7 @@ export default function App() {
                     <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4">
                       <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-100 opacity-0 transition dark:bg-zinc-700 sm:-inset-x-6 sm:rounded-2xl"></div>
                       <header
-                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide dark:text-gray-200 text-zinc-600 sm:col-span-2"
+                        className="z-10 mb-2 mt-1 text-sm font-semibold uppercase tracking-wide dark:text-gray-200 text-zinc-600 sm:col-span-2"
                         aria-label="2018 to Present"
                       >
                         Programming Languages
@@ -632,22 +632,22 @@ export default function App() {
                       <div className="z-10 sm:col-span-6">
                         <ul className="flex flex-wrap">
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               JavaScript
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               TypeScript
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               HTML
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               CSS/SCSS
                             </div>
                           </li>
@@ -659,7 +659,7 @@ export default function App() {
                     <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4">
                       <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-100 opacity-0 transition dark:bg-zinc-700 sm:-inset-x-6 sm:rounded-2xl"></div>
                       <header
-                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide dark:text-gray-200 text-zinc-600 sm:col-span-2"
+                        className="z-10 mb-2 mt-1 text-sm font-semibold uppercase tracking-wide dark:text-gray-200 text-zinc-600 sm:col-span-2"
                         aria-label="2018 to Present"
                       >
                         Libraries & Frameworks
@@ -667,32 +667,32 @@ export default function App() {
                       <div className="z-10 sm:col-span-6">
                         <ul className="flex flex-wrap">
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               React
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               Angular
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               Node
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               Next.js
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               Tailwind
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               Bootstrap
                             </div>
                           </li>
@@ -704,7 +704,7 @@ export default function App() {
                     <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4">
                       <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-100 opacity-0 transition dark:bg-zinc-700 sm:-inset-x-6 sm:rounded-2xl"></div>
                       <header
-                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide dark:text-gray-200 text-zinc-600 sm:col-span-2"
+                        className="z-10 mb-2 mt-1 text-sm font-semibold uppercase tracking-wide dark:text-gray-200 text-zinc-600 sm:col-span-2"
                         aria-label="2018 to Present"
                       >
                         Tools & Platforms
@@ -712,87 +712,87 @@ export default function App() {
                       <div className="z-10 sm:col-span-6">
                         <ul className="flex flex-wrap">
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               Git
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               GitHub
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               Azure
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               Netlify
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               Vercel
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               Bitbucket
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               Docker
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               Craft CMS
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               Sanity CMS
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               Jira
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               Figma
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               Sketch
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               Photoshop
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               InVision
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               npm
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               Yarn
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
+                            <div className="flex items-center rounded-md px-3 py-1 text-sm font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
                               Gulp
                             </div>
                           </li>
@@ -837,65 +837,86 @@ export default function App() {
               className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
             >
               <div className="sticky top-0 z-20 -mx-6 mb-8 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0">
-                <h2 className="text-md font-bold uppercase tracking-widest text-slate-900 dark:text-gray-200">
+                <h2 className="text-sm font-bold uppercase tracking-widest text-slate-900 dark:text-gray-200">
                   Latest Personal Projects
                 </h2>
               </div>
               <div>
-                <ul>
-                  <li className="mb-12">
-                    <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-                      <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-200/60 dark:lg:group-hover:dark:bg-zinc-700/50"></div>
-                      <div className="z-10 sm:order-2 sm:col-span-4">
-                        <h3>
-                          <a
-                            className="inline-flex items-baseline font-medium leading-tight text-slate-900 dark:text-gray-200 dark:hover:text-green-500 dark:focus-visible:text-green-500 hover:text-blue-500 focus-visible:text-blue-500 group/link text-lg"
-                            href="https://www.bijou-movies.com"
-                            target="_blank"
-                            rel="noreferrer"
-                            aria-label="Bijou Movies and TV Database"
-                          >
-                            <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                            <span>
-                              Bijou{' '}
-                              <span className="inline-block">
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 20 20"
-                                  fill="currentColor"
-                                  className="ml-1 inline-block h-4 w-4 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none"
-                                  aria-hidden="true"
-                                >
-                                  <path
-                                    fillRule="evenodd"
-                                    d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
-                                    clipRule="evenodd"
-                                  ></path>
-                                </svg>
-                              </span>
+                <ul className="space-y-8">
+                  <li>
+                    <a
+                      href="https://www.bijou-movies.com"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="group block"
+                    >
+                      <div className="relative transition-all">
+                        {/* Hover background effect */}
+                        <div className="absolute -inset-x-4 -inset-y-6 z-0 rounded-2xl bg-zinc-100/50 opacity-0 transition-all duration-300 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6"></div>
+
+                        {/* Image */}
+                        <div className="relative z-10 mb-4">
+                          <div className="relative overflow-hidden rounded-xl border-2 border-gray-200/20 transition-all duration-300 group-hover:border-gray-200/40 dark:border-gray-700/30 dark:group-hover:border-gray-600/50 group-hover:shadow-xl">
+                            <img
+                              alt="Bijou movie database app screenshot"
+                              loading="lazy"
+                              decoding="async"
+                              className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
+                              src="bijou-2025.png"
+                            />
+                          </div>
+                        </div>
+
+                        {/* Content */}
+                        <div className="relative z-10">
+                          <h3 className="flex items-center gap-2 text-xl font-semibold text-slate-900 dark:text-gray-100 mb-3 group-hover:text-blue-500 dark:group-hover:text-green-500 transition-colors">
+                            Bijou
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 20 20"
+                              fill="currentColor"
+                              className="h-5 w-5 shrink-0 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1"
+                              aria-hidden="true"
+                            >
+                              <path
+                                fillRule="evenodd"
+                                d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                clipRule="evenodd"
+                              />
+                            </svg>
+                          </h3>
+
+                          <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300 mb-4">
+                            Movie and TV database app that utilizes React,
+                            TypeScript, and a handful of APIs. Discover a world
+                            of entertainment with over a million movies and TV
+                            shows. From upcoming and newly released blockbusters
+                            to trending TV.
+                          </p>
+
+                          <p className="mb-6 text-sm">*Updated as of 2025</p>
+
+                          {/* Tech tags */}
+                          <div className="flex flex-wrap gap-2">
+                            <span className="inline-flex items-center rounded-lg bg-blue-50 dark:bg-green-400/10 px-3 py-1 text-sm font-medium text-blue-600 dark:text-green-300">
+                              React
                             </span>
-                          </a>
-                        </h3>
-                        <p className="mt-2 text-base leading-relaxed">
-                          Movie and TV database app that utilizes React,
-                          TypeScript, and a handful of APIs. Discover a world of
-                          entertainment with over a million movies and TV shows.
-                          From upcoming and newly released blockbusters to
-                          trending TV.
-                        </p>
+                            <span className="inline-flex items-center rounded-lg bg-blue-50 dark:bg-green-400/10 px-3 py-1 text-sm font-medium text-blue-600 dark:text-green-300">
+                              TypeScript
+                            </span>
+                            <span className="inline-flex items-center rounded-lg bg-blue-50 dark:bg-green-400/10 px-3 py-1 text-sm font-medium text-blue-600 dark:text-green-300">
+                              Tailwind
+                            </span>
+                            <span className="inline-flex items-center rounded-lg bg-blue-50 dark:bg-green-400/10 px-3 py-1 text-sm font-medium text-blue-600 dark:text-green-300">
+                              REST APIs
+                            </span>
+                          </div>
+                        </div>
                       </div>
-                      <img
-                        alt=""
-                        loading="lazy"
-                        width="300"
-                        decoding="async"
-                        data-nimg="1"
-                        className="rounded border-2 border-gray-200/10 transition group-hover:border-gray-200/30 sm:order-1 sm:col-span-4"
-                        srcSet="bijou.png"
-                        src="bijou.png"
-                      />
-                    </div>
+                    </a>
                   </li>
+
+                  {/* Add more projects here following the same pattern */}
                 </ul>
               </div>
             </section>
