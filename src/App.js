@@ -26,7 +26,7 @@ export default function App() {
     }
   }, [isDarkMode]);
   return (
-    <div className="main dark:text-gray-400 text-zinc-600 scroll-smooth dark:selection:bg-green-300 dark:selection:text-green-900">
+    <div className="main dark:text-gray-200 text-zinc-600 scroll-smooth dark:selection:bg-green-300 dark:selection:text-green-900">
       <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
         <div className="lg:flex lg:justify-between lg:gap-4">
           <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
@@ -37,7 +37,7 @@ export default function App() {
               <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-900 dark:text-stone-50 sm:text-xl">
                 Software Engineer
               </h2>
-              <p className="mt-4 max-w-xs leading-normal">
+              <p className="mt-4 max-w-xs leading-relaxed">
                 I like to build (and occasionally design) mobile-friendly,
                 accessible products that provide a great user experience.
               </p>
@@ -189,12 +189,12 @@ export default function App() {
               className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
             >
               <div className="sticky top-0 z-20 -mx-6 mb-8 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0">
-                <h2 className="text-sm font-bold uppercase tracking-widest text-slate-900 dark:text-gray-200">
+                <h2 className="text-md font-bold uppercase tracking-widest text-slate-900 dark:text-gray-200">
                   About
                 </h2>
               </div>
-              <div>
-                <p className="mb-4">
+              <div className="space-y-4">
+                <p className="leading-relaxed">
                   Howdy. I'm Kyle. I've got a passion for front end development
                   and have been involved in the world of software engineering
                   for the better part of a decade. My knowledge mainly focuses
@@ -203,7 +203,7 @@ export default function App() {
                   portfolio, I also enjoy designing with tools like Figma and
                   Sketch.
                 </p>
-                <p className="mb-4">
+                <p className="leading-relaxed">
                   Throughout my career, I've had the privilege of contributing
                   to a variety of endeavors, from small startups to Fortune 500
                   companies and financial institutions. Looking ahead, my focus
@@ -220,7 +220,7 @@ export default function App() {
               aria-label="experience"
             >
               <div className="sticky top-0 z-20 -mx-6 mb-8 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0">
-                <h2 className="text-sm font-bold uppercase tracking-widest text-slate-900 dark:text-gray-200">
+                <h2 className="text-md font-bold uppercase tracking-widest text-slate-900 dark:text-gray-200">
                   Experience
                 </h2>
               </div>
@@ -230,16 +230,16 @@ export default function App() {
                     <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                       <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-100 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-700 sm:-inset-x-6 sm:rounded-2xl"></div>
                       <header
-                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide sm:col-span-2 dark:text-gray-400 text-zinc-600"
+                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide sm:col-span-2 dark:text-gray-200 text-zinc-600"
                         aria-label="2018 to Present"
                       >
                         2024 — Present
                       </header>
-                      <div className="z-10 sm:col-span-6">
-                        <h3 className="font-medium leading-snug text-slate-900 dark:text-gray-200">
+                      <div className="z-10 sm:col-span-6 space-y-4">
+                        <h3 className="font-extrabold leading-snug text-slate-900 dark:text-gray-200">
                           <div>
                             <a
-                              className="inline-flex items-baseline font-medium leading-tight text-slate-900 dark:text-gray-200 dark:hover:text-green-500 dark:focus-visible:text-green-500 hover:text-blue-500 focus-visible:text-blue-500 group/link text-base"
+                              className="inline-flex items-baseline font-medium leading-tight text-slate-900 dark:text-gray-200 dark:hover:text-green-500 dark:focus-visible:text-green-500 hover:text-blue-500 focus-visible:text-blue-500 group/link text-lg"
                               href="https://www.premierinc.com"
                               target="_blank"
                               rel="noreferrer"
@@ -268,7 +268,7 @@ export default function App() {
                             </a>
                           </div>
                         </h3>
-                        <p className="mt-2 text-sm leading-normal">
+                        <p className="mt-2 text-base leading-relaxed">
                           Architect and lead design system development for a
                           multi-billion dollar healthcare technology platform
                           serving two-thirds of U.S. healthcare providers. I
@@ -330,16 +330,16 @@ export default function App() {
                     <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                       <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-100 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-700 sm:-inset-x-6 sm:rounded-2xl"></div>
                       <header
-                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide sm:col-span-2 dark:text-gray-400 text-zinc-600"
+                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide sm:col-span-2 dark:text-gray-200 text-zinc-600"
                         aria-label="2018 to Present"
                       >
                         2023 — 2024
                       </header>
-                      <div className="z-10 sm:col-span-6">
+                      <div className="z-10 sm:col-span-6 space-y-4">
                         <h3 className="font-medium leading-snug text-slate-900 dark:text-gray-200">
                           <div>
                             <a
-                              className="inline-flex items-baseline font-medium leading-tight text-slate-900 dark:text-gray-200 dark:hover:text-green-500 dark:focus-visible:text-green-500 hover:text-blue-500 focus-visible:text-blue-500 group/link text-base"
+                              className="inline-flex items-baseline font-medium leading-tight text-slate-900 dark:text-gray-200 dark:hover:text-green-500 dark:focus-visible:text-green-500 hover:text-blue-500 focus-visible:text-blue-500 group/link text-lg"
                               href="https://www.firstcitizens.com/"
                               target="_blank"
                               rel="noreferrer"
@@ -368,7 +368,7 @@ export default function App() {
                             </a>
                           </div>
                         </h3>
-                        <p className="mt-2 text-sm leading-normal">
+                        <p className="mt-2 text-base leading-relaxed">
                           Designed and developed internal applications in
                           JavaScript and Angular. Migrated large-scale internal
                           applications from AngularJS to Angular 2+, as well as
@@ -421,16 +421,16 @@ export default function App() {
                     <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                       <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-100 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-700 sm:-inset-x-6 sm:rounded-2xl"></div>
                       <header
-                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide dark:text-gray-400 text-zinc-600 sm:col-span-2"
+                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide dark:text-gray-200 text-zinc-600 sm:col-span-2"
                         aria-label="July to December 2017"
                       >
                         2020 — 2023
                       </header>
-                      <div className="z-10 sm:col-span-6">
+                      <div className="z-10 sm:col-span-6 space-y-4">
                         <h3 className="font-medium leading-snug text-slate-900 dark:text-gray-200">
                           <div>
                             <a
-                              className="inline-flex items-baseline font-medium leading-tight text-slate-900 dark:text-gray-200 dark:hover:text-green-500 dark:focus-visible:text-green-500 hover:text-blue-500 focus-visible:text-blue-500 group/link text-base"
+                              className="inline-flex items-baseline font-medium leading-tight text-slate-900 dark:text-gray-200 dark:hover:text-green-500 dark:focus-visible:text-green-500 hover:text-blue-500 focus-visible:text-blue-500 group/link text-lg"
                               href="https://www.captechconsulting.com"
                               target="_blank"
                               rel="noreferrer"
@@ -459,7 +459,7 @@ export default function App() {
                             </a>
                           </div>
                         </h3>
-                        <p className="mt-2 text-sm leading-normal">
+                        <p className="mt-2 text-base leading-relaxed">
                           Developed high-quality production applications for a
                           diverse array of development projects, teams, and
                           clients including Bank of America, Capital One, and
@@ -521,16 +521,16 @@ export default function App() {
                     <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                       <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-100 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-700 sm:-inset-x-6 sm:rounded-2xl"></div>
                       <header
-                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide dark:text-gray-400 text-zinc-600 sm:col-span-2"
+                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide dark:text-gray-200 text-zinc-600 sm:col-span-2"
                         aria-label="July to December 2017"
                       >
                         2016 — 2020
                       </header>
-                      <div className="z-10 sm:col-span-6">
+                      <div className="z-10 sm:col-span-6 space-y-4">
                         <h3 className="font-medium leading-snug text-slate-900 dark:text-gray-200">
                           <div>
                             <a
-                              className="inline-flex items-baseline font-medium leading-tight text-slate-900 dark:text-gray-200 dark:hover:text-green-500 dark:focus-visible:text-green-500 hover:text-blue-500 focus-visible:text-blue-500 group/link text-base"
+                              className="inline-flex items-baseline font-medium leading-tight text-slate-900 dark:text-gray-200 dark:hover:text-green-500 dark:focus-visible:text-green-500 hover:text-blue-500 focus-visible:text-blue-500 group/link text-lg"
                               href="https://www.signupgenius.com/"
                               target="_blank"
                               rel="noreferrer"
@@ -559,7 +559,7 @@ export default function App() {
                             </a>
                           </div>
                         </h3>
-                        <p className="mt-2 text-sm leading-normal">
+                        <p className="mt-2 text-base leading-relaxed">
                           Coded dynamic and responsive applications, landing
                           pages and emails. Designed multiple applications,
                           landing pages, and emails in a team-based environment
@@ -614,7 +614,7 @@ export default function App() {
               aria-label="skills"
             >
               <div className="sticky top-0 z-20 -mx-6 mb-8 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0">
-                <h2 className="text-sm font-bold uppercase tracking-widest text-slate-900 dark:text-gray-200">
+                <h2 className="text-md font-bold uppercase tracking-widest text-slate-900 dark:text-gray-200">
                   Skills
                 </h2>
               </div>
@@ -624,26 +624,12 @@ export default function App() {
                     <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4">
                       <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-100 opacity-0 transition dark:bg-zinc-700 sm:-inset-x-6 sm:rounded-2xl"></div>
                       <header
-                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide dark:text-gray-400 text-zinc-600 sm:col-span-2"
+                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide dark:text-gray-200 text-zinc-600 sm:col-span-2"
                         aria-label="2018 to Present"
                       >
                         Programming Languages
                       </header>
                       <div className="z-10 sm:col-span-6">
-                        {/* <h3 className="font-medium leading-snug text-slate-900 dark:text-gray-200">
-                          <div>
-                            <a
-                              className="inline-flex items-baseline font-medium leading-tight text-slate-900 dark:text-gray-200 dark:hover:text-green-500 dark:focus-visible:text-green-500 hover:text-blue-500 focus-visible:text-blue-500 group/link text-base"
-                              href="https://www.firstcitizens.com/"
-                              target="_blank"
-                              rel="noreferrer"
-                              aria-label="Software Developer at First Citizens Bank"
-                            >
-                              <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                              <span>Programming Languages</span>
-                            </a>
-                          </div>
-                        </h3> */}
                         <ul className="flex flex-wrap">
                           <li className="mr-1.5 mt-2">
                             <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
@@ -673,26 +659,12 @@ export default function App() {
                     <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4">
                       <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-100 opacity-0 transition dark:bg-zinc-700 sm:-inset-x-6 sm:rounded-2xl"></div>
                       <header
-                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide dark:text-gray-400 text-zinc-600 sm:col-span-2"
+                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide dark:text-gray-200 text-zinc-600 sm:col-span-2"
                         aria-label="2018 to Present"
                       >
                         Libraries & Frameworks
                       </header>
                       <div className="z-10 sm:col-span-6">
-                        {/* <h3 className="font-medium leading-snug text-slate-900 dark:text-gray-200">
-                          <div>
-                            <a
-                              className="inline-flex items-baseline font-medium leading-tight text-slate-900 dark:text-gray-200 dark:hover:text-green-500 dark:focus-visible:text-green-500 hover:text-blue-500 focus-visible:text-blue-500 group/link text-base"
-                              href="https://www.firstcitizens.com/"
-                              target="_blank"
-                              rel="noreferrer"
-                              aria-label="Software Developer at First Citizens Bank"
-                            >
-                              <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                              <span>Programming Languages</span>
-                            </a>
-                          </div>
-                        </h3> */}
                         <ul className="flex flex-wrap">
                           <li className="mr-1.5 mt-2">
                             <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
@@ -732,26 +704,12 @@ export default function App() {
                     <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4">
                       <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-100 opacity-0 transition dark:bg-zinc-700 sm:-inset-x-6 sm:rounded-2xl"></div>
                       <header
-                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide dark:text-gray-400 text-zinc-600 sm:col-span-2"
+                        className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide dark:text-gray-200 text-zinc-600 sm:col-span-2"
                         aria-label="2018 to Present"
                       >
                         Tools & Platforms
                       </header>
                       <div className="z-10 sm:col-span-6">
-                        {/* <h3 className="font-medium leading-snug text-slate-900 dark:text-gray-200">
-                          <div>
-                            <a
-                              className="inline-flex items-baseline font-medium leading-tight text-slate-900 dark:text-gray-200 dark:hover:text-green-500 dark:focus-visible:text-green-500 hover:text-blue-500 focus-visible:text-blue-500 group/link text-base"
-                              href="https://www.firstcitizens.com/"
-                              target="_blank"
-                              rel="noreferrer"
-                              aria-label="Software Developer at First Citizens Bank"
-                            >
-                              <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                              <span>Programming Languages</span>
-                            </a>
-                          </div>
-                        </h3> */}
                         <ul className="flex flex-wrap">
                           <li className="mr-1.5 mt-2">
                             <div className="flex items-center rounded-md px-3 py-1 text-xs font-medium leading-5 dark:text-green-300 text-blue-500 dark:bg-green-400/10 bg-blue-400/10">
@@ -879,7 +837,7 @@ export default function App() {
               className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
             >
               <div className="sticky top-0 z-20 -mx-6 mb-8 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0">
-                <h2 className="text-sm font-bold uppercase tracking-widest text-slate-900 dark:text-gray-200">
+                <h2 className="text-md font-bold uppercase tracking-widest text-slate-900 dark:text-gray-200">
                   Latest Personal Projects
                 </h2>
               </div>
@@ -891,7 +849,7 @@ export default function App() {
                       <div className="z-10 sm:order-2 sm:col-span-4">
                         <h3>
                           <a
-                            className="inline-flex items-baseline font-medium leading-tight text-slate-900 dark:text-gray-200 dark:hover:text-green-500 dark:focus-visible:text-green-500 hover:text-blue-500 focus-visible:text-blue-500 group/link text-base"
+                            className="inline-flex items-baseline font-medium leading-tight text-slate-900 dark:text-gray-200 dark:hover:text-green-500 dark:focus-visible:text-green-500 hover:text-blue-500 focus-visible:text-blue-500 group/link text-lg"
                             href="https://www.bijou-movies.com"
                             target="_blank"
                             rel="noreferrer"
@@ -918,7 +876,7 @@ export default function App() {
                             </span>
                           </a>
                         </h3>
-                        <p className="mt-2 text-sm leading-normal">
+                        <p className="mt-2 text-base leading-relaxed">
                           Movie and TV database app that utilizes React,
                           TypeScript, and a handful of APIs. Discover a world of
                           entertainment with over a million movies and TV shows.
@@ -938,116 +896,6 @@ export default function App() {
                       />
                     </div>
                   </li>
-                  {/* <li className="mb-12">
-                    <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-                      <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-200/60 dark:lg:group-hover:dark:bg-zinc-700/50"></div>
-                      <div className="z-10 sm:order-2 sm:col-span-4">
-                        <h3>
-                          <a
-                            className="inline-flex items-baseline font-medium leading-tight text-slate-900 dark:text-gray-200 dark:hover:text-green-500 dark:focus-visible:text-green-500 hover:text-blue-500 focus-visible:text-blue-500 group/link text-base"
-                            href="https://holliday-spotify-app-1268cb18a08c.herokuapp.com/"
-                            target="_blank"
-                            rel="noreferrer"
-                            aria-label="Spotify Profile App"
-                          >
-                            <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                            <span>
-                              Spotify Profile App{' '}
-                              <span className="inline-block">
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 20 20"
-                                  fill="currentColor"
-                                  className="ml-1 inline-block h-4 w-4 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none"
-                                  aria-hidden="true"
-                                >
-                                  <path
-                                    fillRule="evenodd"
-                                    d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
-                                    clipRule="evenodd"
-                                  ></path>
-                                </svg>
-                              </span>
-                            </span>
-                          </a>
-                        </h3>
-                        <p className="mt-2 text-sm leading-normal">
-                          An application that uses Spotify's API, React, and
-                          Node.js to show your profile, top artists, top tracks,
-                          and some other fun stuff.{' '}
-                          <span className="dark:text-green-500 text-blue-500">
-                            With the current Spotify API rules, you'll need to
-                            email me so I can add your login/email to the list
-                            for entry (unfortunately)
-                          </span>
-                          .
-                        </p>
-                      </div>
-                      <img
-                        alt=""
-                        loading="lazy"
-                        width="300"
-                        decoding="async"
-                        data-nimg="1"
-                        className="rounded border-2 border-gray-200/10 transition group-hover:border-gray-200/30 sm:order-1 sm:col-span-4"
-                        srcSet="spotify-profile.png"
-                        src="spotify-profile.png"
-                      />
-                    </div>
-                  </li> */}
-                  {/* <li className="mb-12">
-                    <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-                      <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-200/60 dark:lg:group-hover:dark:bg-zinc-700/50"></div>
-                      <div className="z-10 sm:order-2 sm:col-span-4">
-                        <h3>
-                          <a
-                            className="inline-flex items-baseline font-medium leading-tight text-slate-900 dark:text-gray-200 dark:hover:text-green-500 dark:focus-visible:text-green-500 hover:text-blue-500 focus-visible:text-blue-500 group/link text-base"
-                            href="https://www.bijou-movies.com"
-                            target="_blank"
-                            rel="noreferrer"
-                            aria-label="Bijou Movies and TV Database"
-                          >
-                            <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                            <span>
-                              Bijou{' '}
-                              <span className="inline-block">
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 20 20"
-                                  fill="currentColor"
-                                  className="ml-1 inline-block h-4 w-4 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none"
-                                  aria-hidden="true"
-                                >
-                                  <path
-                                    fillRule="evenodd"
-                                    d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
-                                    clipRule="evenodd"
-                                  ></path>
-                                </svg>
-                              </span>
-                            </span>
-                          </a>
-                        </h3>
-                        <p className="mt-2 text-sm leading-normal">
-                          Movie and TV database app that utilizes the TMDB and
-                          JustWatch APIs. Discover a world of entertainment with
-                          over a million movies and TV shows. From upcoming and
-                          newly released blockbusters to trending TV, we've got
-                          your popcorn ready.
-                        </p>
-                      </div>
-                      <img
-                        alt=""
-                        loading="lazy"
-                        width="300"
-                        decoding="async"
-                        data-nimg="1"
-                        className="rounded border-2 border-gray-200/10 transition group-hover:border-gray-200/30 sm:order-1 sm:col-span-4"
-                        srcSet="bijou.png"
-                        src="bijou.png"
-                      />
-                    </div>
-                  </li> */}
                 </ul>
               </div>
             </section>
