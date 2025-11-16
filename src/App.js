@@ -35,11 +35,11 @@ export default function App() {
                 Kyle Holliday
               </h1>
               <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-900 dark:text-stone-50 sm:text-xl">
-                Software Engineer
+                Full Stack Developer + Designer
               </h2>
               <p className="mt-4 max-w-xs leading-relaxed">
-                I like to build (and occasionally design) mobile-friendly,
-                accessible products that provide a great user experience.
+                I like to build and design mobile-friendly, accessible products
+                that provide a great user experience.
               </p>
               <div className="pointer-events-auto">
                 <button
@@ -195,13 +195,12 @@ export default function App() {
               </div>
               <div className="space-y-4">
                 <p className="leading-relaxed">
-                  Howdy. I'm Kyle. I've got a passion for front end development
-                  and have been involved in the world of software engineering
-                  for the better part of a decade. My knowledge mainly focuses
-                  on crafting seamless user experiences using React, Angular,
-                  and JavaScript. While coding makes up the majority of my
-                  portfolio, I also enjoy designing with tools like Figma and
-                  Sketch.
+                  Howdy! I'm Kyle. I've been involved in the world of software
+                  engineering for the better part of a decade. My knowledge
+                  mainly focuses on crafting seamless user experiences using
+                  React, Angular, JavaScript, and PostgreSQL/SQL. While coding
+                  makes up the majority of my portfolio, I also enjoy designing
+                  (lately with tools like Figma and Sketch).
                 </p>
                 <p className="leading-relaxed">
                   Throughout my career, I've had the privilege of contributing
@@ -805,7 +804,7 @@ export default function App() {
                   <a
                     className="inline-flex items-center leading-tight text-slate-900 dark:text-gray-200 font-semibold group"
                     aria-label="View Resume"
-                    href="/Kyle-Holliday-Resume.pdf"
+                    href="/kyle-holliday-resume.pdf"
                     target="_blank"
                   >
                     <span>
@@ -909,6 +908,9 @@ export default function App() {
                             </span>
                             <span className="inline-flex items-center rounded-lg bg-blue-50 dark:bg-green-400/10 px-3 py-1 text-sm font-medium text-blue-600 dark:text-green-300">
                               REST APIs
+                            </span>
+                            <span className="inline-flex items-center rounded-lg bg-blue-50 dark:bg-green-400/10 px-3 py-1 text-sm font-medium text-blue-600 dark:text-green-300">
+                              PostgreSQL
                             </span>
                           </div>
                         </div>
